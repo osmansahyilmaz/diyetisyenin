@@ -1,0 +1,83 @@
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/app/build/
+android/local.properties
+*.keystore
+*.jks
+
+# =========================
+# iOS / macOS
+# =========================
+ios/Flutter/Flutter.framework
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/GeneratedPluginRegistrant.*
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# =========================
+# Web
+# =========================
+lib/generated_plugin_registrant.dart
+web/.dart_tool/
+
+# =========================
+# Firebase
+# =========================
+google-services.json
+GoogleService-Info.plist
+firebase-debug.log
+.firebase/
+.crashlytics/
+firebase.json
+firestore.indexes.json
+firestore.rules
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
+# =========================
+# Logs & Misc
+# =========================
+*.log
+*.tmp
+*.lock
+.DS_Store
+Thumbs.db
+
+# =========================
+# Coverage / Reports
+# =========================
+coverage/
+test_output/
